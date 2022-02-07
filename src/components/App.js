@@ -1,5 +1,15 @@
+import React, { useState } from "react";
+import { GlobalStyles } from "../style";
+
+import MainPage from "./MainPage";
 function App() {
-  return <div>minicart</div>;
+  return (
+    <>
+      <GlobalStyles />
+
+      <MainPage />
+    </>
+  );
 }
 
 export default App;
